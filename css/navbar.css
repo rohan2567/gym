@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    align-items: center;
+    background:black
+  }
+  
+  #profile-image {
+    flex-basis: 7%;
+    font-size: 0;
+    padding-left: 30px;
+  }
+  
+  #profile-image img {
+    width: 100%;
+  }
+  
+  ul.menu {
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    flex-grow: 1;
+    list-style-type:none;
+    padding:0;
+  }
+  ul.menu li {
+    padding:10px;
+  }
+
+  
